@@ -1,0 +1,2126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio showcasing my web development projects.">
+    <meta name="keywords" content="web development, HTML, CSS, JavaScript, portfolio">
+    <meta property="og:title" content="SaqlainHub | Web developer">
+    <meta property="og:image" content="./assets/img/profile.png">
+    <meta property="og:description" content="A portfolio of web development projects">
+    
+
+
+    <!--====================   FONT AWESOME   ===========================-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+
+    <!--======================  Custom CSS  ====================================-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!--========================= Swiper CSS =========================-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <title>SaqlainHub - Web Developer</title>
+
+</head>
+
+<body>
+    <!--=========================  STYLE SWITCHER   ========================-->
+    <input type="radio" name="color" id="color-1">
+    <input type="radio" name="color" id="color-2">
+    <input type="radio" name="color" id="color-3">
+    <input type="radio" name="color" id="color-4">
+    <input type="radio" name="color" id="color-5">
+    <input type="radio" name="color" id="color-6">
+    <input type="radio" name="color" id="color-7">
+    <input type="radio" name="color" id="color-8">
+    <input type="radio" name="color" id="color-9">
+    <input type="radio" name="color" id="color-10">
+    <input type="checkbox" id="toggler" />
+    <input type="checkbox" id="day-night" checked />
+    <div class="style__switcher">
+        <label for="toggler" class="style__switcher-toggler">
+            <i class="fa-solid fa-gear fa-spin"></i>
+        </label>
+
+        <label for="day-night" class="style__switcher-theme">
+            <i class="fa-solid fa-sun"></i>
+            <i class="fa-solid fa-moon"></i>
+        </label>
+
+        <h3 class="style__switcher-title">Theme Colors</h3>
+
+        <div class="style__switcher-colors">
+            <label for="color-1" class="color-1 color"></label>
+            <label for="color-2" class="color-2 color"></label>
+            <label for="color-3" class="color-3 color"></label>
+            <label for="color-4" class="color-4 color"></label>
+            <label for="color-5" class="color-5 color"></label>
+            <label for="color-6" class="color-6 color"></label>
+            <label for="color-7" class="color-7 color"></label>
+            <label for="color-8" class="color-8 color"></label>
+            <label for="color-9" class="color-9 color"></label>
+            <label for="color-10" class="color-10 color"></label>
+        </div>
+    </div>
+
+    <!--=========================  HEADER   =========================-->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__group">
+                <img src="assets/img/profile.png" alt="saqlainhub image" class="navbar__img">
+                <a href="#">
+                    <p class="nav__logo">SaqlainHub</p>
+                </a>
+            </div>
+
+            <i class="fa-solid fa-bars " id="menu-icon"></i>
+
+            <ul class="nav__list" id="nav__overlay">
+                <li class="nav__item nav_start">
+                    <a href="#home" class=" ">
+                        <p class="nav__link active-link">Home</p>
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#about" class="nav__link ">About</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#qualifications" class="nav__link ">Experience</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#services" class="nav__link ">Services</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#work" class="nav__link ">Work</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#contacts" class="nav__link ">Contact</a>
+                </li>
+                <li class="nav__item nav_end">
+                    <a href="#contacts" class="nav__btn nav__end">Hire Me!</a>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <!--=========================   MAIN  ===============================-->
+    <main class="main">
+
+        <!--=======================  HOME  ================================-->
+        <section class="home" id="home">
+
+            <div class="home__container container grid">
+
+                <div class="home__content">
+                    <h3>Hello, It's Me</h3>
+                    <h1>Saqlain Ahmad</h1>
+                    <h3>And I'm a <span class="multiple-text"></span></h3>
+                    <p>
+                        Hi there. I help businesses to showcase their expertise online by developing professional
+                        (Portfolios, Agencies, and Institutional) websites and delivering trust, unmatched quality &
+                        impactful results. Let's Build your online presence. Message Now!
+                    </p>
+
+                    <div class="social-media" onclick="return confirmAction(event)">
+                        <a href="https://web.facebook.com/saqlainhub1097?_rdc=1&_rdr" class="icon" target="_blank">
+                            <i class="fa-brands fa-square-facebook"></i>
+                            <span class="tooltip">Facebook</span>
+                        </a>
+                        <a href="https://www.instagram.com/saqlainhub1097/" class="icon" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                            <span class="tooltip">Instagram</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/saqlainhub1097/" class="icon" target="_blank">
+                            <i class="fa-brands fa-linkedin"></i>
+                            <span class="tooltip">LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/saqlainhub" class="icon" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                            <span class="tooltip">GitHub</span>
+                        </a>
+                        <a href="https://whatsapp.com/channel/0029VatXZsZ2kNFrC7iniy0b" class="icon" target="_blank">
+                            <i class="fa-brands fa-whatsapp"></i>
+                            <span class="tooltip">Watsapp</span>
+                        </a>
+                    </div>
+
+                    <div class="home__btns">
+                        <a href="#contacts" class="btn">Hire Me</a>
+                        <a href="./assets/others/resume.pdf" class="btn btn--transparent" download>Resume <i
+                                class="fa-solid fa-download"></i></a>
+                    </div>
+
+                </div>
+
+                <div class="home__img-main">
+                    <div class="home__img-wrapper">
+                        <img src="assets/img/profile.png" alt="saqlainhub image" class="home__img" loading="lazy">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--======================   ABOUT  ===============================-->
+        <section class="about section" id="about">
+            <h2 class="section__title title-center" data-title="Who am i?">
+                About Me
+            </h2>
+
+            <div class="about__container container grid">
+                <div class="about__group">
+                    <div class="about__slideshow ">
+
+                        <div class="about__slide about__fade"
+                            style="background-image: url('assets/img/about/about-1.jpg');" loading="lazy">
+                        </div>
+                        <div class="about__slide about__fade"
+                            style="background-image: url('assets/img/about/about-2.jpg');" loading="lazy">
+                        </div>
+
+                        <!-- Navigation Arrows -->
+                        <a class="about__prev"><i class="fa-solid fa-caret-left"></i></a>
+                        <a class="about__next"><i class="fa-solid fa-caret-right"></i></a>
+                    </div>
+
+                    <div class="about__btns">
+                        <a href="#contacts" class="about__btn"> Hire Me! </a>
+                        <a href="./assets/others/resume.pdf" class="about__btn about__btn--transparent" download>Resume
+                            <i class="fa-solid fa-download"></i></a>
+                    </div>
+
+                </div>
+
+                <div class="about__content">
+                    <h2 class="about__heading">
+                        Myself Saqlain Ahmad <span class="about-heading__skill"> - Web Developer</span>
+                    </h2>
+
+                    <p class="about__description">
+                        A well expert professional website developer with a passion for creating
+                        digital experiences that drive results.
+                        <br>
+                        I help businesses and individuals build their online presence by developing and growing
+                        Portfolios, Agencies & Institutional websites. Also delivering trust, impactful results &
+                        unmatched quality. I completed 50+ projects with my best.
+                        <span class="more-text" id="moreText">
+                            <br>
+                            <b>My Expertise is in:</b> <br> <i>
+                                HTML5, CSS3, JavaScript, React, Node.js, Express.js, MongoDB, Bootstrap, React
+                                Bootstrap,
+                                WordPress, Git & Github, REST API, Tailwind css. </i>
+                            <br>
+                            <b>My Specialized niches are:</b> <br> <i>
+                                - Portfoli websites for any person in any field. <br>
+                                - Agencies websites of any catagory. <br>
+                                - Institiutional websites of any type. <br> </i>
+
+                            <b>What I Offer: </b><br><i>
+
+                                - MERN Stack Website Development <br>
+                                - SEO (on-page & off-page) <br>
+                                - WordPress Development <br>
+                                - Web Design <br>
+                                - Performance Optimisation <br>
+                                - Security Optimisation <br>
+                                - Maintenance & Testing & Updating offer <br></i>
+
+                            <b>How I Differ from others:</b> <br><i>
+
+                                - Professional Workflow from project starting to project delivering. <br>
+                                - Good communication & collaboration skill to make better connection with client. <br>
+                                - Manage my time to deliver response and project at given time. <br>
+                                - Provide some extra offers & skills <br></i>
+
+                            <b>Let's Connect:</b> <br>
+
+                            If you're looking for a dedicated and results-driven website to showcase your online
+                            presence.
+                            Let's contact now for more inquiries!
+                        </span>
+                    </p>
+
+                    <div class="tabs__btns">
+                        <span class="tabs__btn tab__active" data-target="#skills">MySelf</span>
+                        <span class="tabs__btn" data-target="#contact">Contact</span>
+                        <span class="tabs__btn" data-target="#qualification">Qualification</span>
+                        <span class="tabs__btn" data-target="#works">Work</span>
+                    </div>
+
+                    <div class="tabs__content">
+                        <div class="tabs__item  tab__active" data-content id="skills">
+                            <div class="tabs__data grid">
+                                <ul class="about__data grid">
+                                    <li class="data__item">
+                                        <h3 class="data__title">Name:</h3>
+                                        <span class="data__description">Saqlain Ahmad</span>
+                                    </li>
+                                    <li class="data__item">
+                                        <h3 class="data__title">Father's Name:</h3>
+                                        <span class="data__description">Ahmad Ali</span>
+                                    </li>
+                                    <li class="data__item">
+                                        <h3 class="data__title">Age:</h3>
+                                        <span class="data__description">17 years</span>
+                                    </li>
+                                    <li class="data__item">
+                                        <h3 class="data__title">Gender:</h3>
+                                        <span class="data__description ">Male</span>
+                                    </li>
+                                    <li class="data__item">
+                                        <h3 class="data__title">DOB:</h3>
+                                        <span class="data__description ">14 Feburuary 2008</span>
+                                    </li>
+                                    <li class="data__item">
+                                        <h3 class="data__title">Hobbies:</h3>
+                                        <span class="data__description ">Circket, Book Reading</span>
+                                    </li>
+                                    <li class="data__item">
+                                        <h3 class="data__title">Status:</h3>
+                                        <span class="data__description ">Single</span>
+                                    </li>
+                                    <li class="data__item">
+                                        <h3 class="data__title">languages:</h3>
+                                        <span class="data__description ">English, Urdu, punjabi </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="tabs__item" data-content id="contact">
+                            <div class="tabs__data grid">
+                                <ul class="about__data grid">
+                                    <li class="data__item">
+                                        <h3 class="data__title">Email:</h3>
+                                        <span class="data__description about__link">saqlaininfo1097@gmail.com</span>
+                                    </li>
+                                    <li class="data__item">
+                                        <h3 class="data__title">Phone Number:</h3>
+                                        <span class="data__description">+92-3454409621</span>
+                                    </li>
+                                    <li class="data__item">
+                                        <h3 class="data__title">Country:</h3>
+                                        <span class="data__description">Pakistan</span>
+                                    </li>
+                                    <li class="data__item">
+                                        <h3 class="data__title">City:</h3>
+                                        <span class="data__description">Chiniot</span>
+                                    </li>
+                                    <li class="data__item">
+                                        <h3 class="data__title">Full Address:</h3>
+                                        <span class="data__description ">Qasim town, Chiniot</span>
+                                    </li>
+                                    <li class="data__item">
+                                        <h3 class="data__title">Unique Identity:</h3>
+                                        <span class="data__description ">SaqlainHub</span>
+                                    </li>
+                                    <li class="data__item">
+                                        <h3 class="data__title">Freelance:</h3>
+                                        <span class="data__description">Available</span>
+                                    </li>
+                                    <li class="data__item">
+                                        <h3 class="data__title">Social Profiles: </h3>
+                                        <span class="data__description">Active</span>
+
+                                    </li>
+
+                                </ul>
+
+                            </div>
+                        </div>
+
+                        <div class="tabs__item  " data-content id="qualification">
+                            <div class="tabs__data grid">
+                                <div class="data__about">
+                                    <p class="tabs__description">
+                                        <span>Matriculation</span> -
+                                        <span> From: Govt. High School, Chiniot.</span>
+                                    </p>
+
+                                    <p class="tabs__description">
+                                        <span>Intermediate</span> -
+                                        <span>From: Govt. Islamia Collage, Chiniot.</span>
+                                    </p>
+
+                                    <p class="tabs__description">
+                                        <span>Web Development</span> -
+                                        <span>From: Online Resource on Udemy</span>
+                                    </p>
+
+                                    <p class="tabs__description">
+                                        <span>Projects Experience</span> -
+                                        <span>For Diffrent Freelance Clients</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tabs__item " data-content id="works">
+                            <div class="tabs__data grid">
+                                <div class="data__about">
+                                    <p class="tabs__description">
+                                        <span>Specialized Skills</span> -
+                                        <span> Web Development, Wordpress, Web Design </span>
+                                    </p>
+
+                                    <p class="tabs__description">
+                                        <span>Extra Skills</span> -
+                                        <span>Web SEO, Web Security, Blogging</span>
+                                    </p>
+
+                                    <p class="tabs__description">
+                                        <span>Soft Skills</span> -
+                                        <span>Communication, Problem solving, Time Management </span>
+                                    </p>
+
+                                    <p class="tabs__description">
+                                        <span>Particular Niche</span> -
+                                        <span>Portfolios, Agencies & Institiutional websites</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!--======================  QUALIFICATION  ============================-->
+
+        <section class="section qualification" id="qualifications">
+            <h2 class="section__title title-center" data-title="My Journey">Qualification</h2>
+            <div class="container resume__container">
+
+
+                <!--  eduction  -->
+                <div class="education padd-15">
+                    <h3 class="resume__heading"><i class="fa-solid fa-graduation-cap"></i> Education</h3>
+                    <div class="row">
+                        <div class="timeline-box">
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <i class="fa-solid fa-graduation-cap timeline-icon"></i>
+                                    <span class="resume__date"> <i class="fa-solid fa-calendar-days"></i>
+                                        2022 - 2024</span>
+                                    <h3 class="timeline-title">Matriculation</h3>
+                                    <p class="timeline-text">
+                                        This time of my life was incredibly memorable and full of joy. It was a period
+                                        of innocence, with no worries about the future. I spent most of my time playing,
+                                        and when I felt like it, I would study a little. I completed this phase at
+                                        Government High School, Chiniot, and with great effort and dedication, I
+                                        achieved an A+ grade.
+                                    </p>
+                                </div>
+
+                                <div class="timeline-item">
+                                    <i class="fa-solid fa-graduation-cap timeline-icon"></i>
+                                    <span class="resume__date"> <i class="fa-solid fa-calendar-days"></i> Present</span>
+                                    <h3 class="timeline-title">Intermediate</h3>
+                                    <p class="timeline-text">
+                                        My college journey began here when I enrolled at Government Islamia College,
+                                        Chiniot, choosing ICS as my field of study. Now, my first year is almost coming
+                                        to an end. Here too, I am balancing hard work and enjoyment. I hope that, with
+                                        Allah's grace, I will achieve success in this phase of my life as well.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--  experience  -->
+                <div class="experience padd-15">
+                    <h3 class="resume__heading"><i class="fa-solid fa-suitcase"></i> Experience</h3>
+                    <div class="row">
+                        <div class="timeline-box">
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <i class="fa-solid fa-suitcase timeline-icon"></i>
+                                    <span class="resume__date"> <i class="fa-solid fa-calendar-days"></i> 2023</span>
+                                    <h3 class="timeline-title">Web Development Course</h3>
+                                    <p class="timeline-text">
+                                        During this journey, I learnt a lot about programming and specifically web
+                                        development. I learnt frontend, backend, database, wordpress, seo, web designing
+                                        and many more. This is the very good experience for me . I creat many projects
+                                        during these days and try many things.
+                                    </p>
+                                </div>
+
+                                <div class="timeline-item">
+                                    <i class="fa-solid fa-suitcase timeline-icon"></i>
+                                    <span class="resume__date"> <i class="fa-solid fa-calendar-days"></i> 2024 -
+                                        Present</span>
+                                    <h3 class="timeline-title">Web Developer</h3>
+                                    <p class="timeline-text">
+                                        I have gained valuable experience in web development, focusing on creating
+                                        dynamic, user-friendly, and visually appealing websites. I excel at building
+                                        responsive designs and optimized applications. I worked on 50+ projects in these
+                                        days. My dedication to learning and problem-solving drives me to deliver
+                                        high-quality results in every project.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--======================  SERVICES  =================================-->
+        <section class="services section" id="services">
+            <h2 class="section__title title-center" data-title="What I do for you">
+                Our Services
+            </h2>
+
+            <div class="services__container container grid">
+                <div class="services__item">
+                    <i class="fa-solid fa-address-card services__icon"></i>
+
+                    <h3 class="services__title">Portfolio Websites</h3>
+                    <p class="services__description">
+                        I help you create a professional looking portfolio website that showcase your unique brand and
+                        skills. I deliver a high-quality designs that leave a lasting impression.
+                    </p>
+                    <div class="services__btns">
+                        <a href="#work" class="services__btn"> Projects </a>
+                        <span class="services__btn services__button">Explore</span>
+                    </div>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class="fa-solid fa-times services__modal-close"></i>
+
+                            <h3 class="services__modal-title">Portfolio Websites</h3>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Personalized designs that make your brand
+                                        unforgettable.
+                                    </p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Engaging features that captivate visitors.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Lightning-fast websites for a seamless user
+                                        experience.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Custom graphics and layouts to stand out from the
+                                        crowd.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Scalable and easily upgradable for your evolving
+                                        needs.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Design that turns clicks into actions, boosting
+                                        conversions.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">SEO strategies built in to grow your online reach.
+                                    </p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Built-in protection to keep your site safe and
+                                        secure.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Designs that speak and connect with your audience.
+                                    </p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">From design to maintenance, I’m with you at every
+                                        step.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">For knowing how I differ from others.
+                                        <a href="#about" class="service__modal-explore"> Explore now!</a>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <span class="services__no">01</span>
+                </div>
+
+                <div class="services__item">
+                    <i class="fa-solid fa-business-time services__icon"></i>
+
+                    <h3 class="services__title">Agency Websites</h3>
+                    <p class="services__description">
+                        I help you create sleek, high-impact agency websites that showcase your services, build trust,
+                        and attract clients—delivering results that set your agency apart.
+                    </p>
+                    <div class="services__btns">
+                        <a href="#work" class="services__btn"> Projects </a>
+                        <span class="services__btn services__button">Explore</span>
+                    </div>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class="fa-solid fa-times services__modal-close"></i>
+
+                            <h3 class="services__modal-title">Agency Websites</h3>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Websites that reflect your agency's identity and
+                                        vision.
+                                    </p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Intuitive designs that drive engagement and trust.
+                                    </p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Lightning-fast websites for a seamless user
+                                        experience.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Custom graphics and layouts to stand out from the
+                                        crowd.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Scalable and easily upgradable for your evolving
+                                        needs.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Design that turns clicks into actions, boosting
+                                        conversions.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">SEO strategies built in to grow your online reach.
+                                    </p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Built-in protection to keep your site safe and
+                                        secure.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Strategically built to turn visitors into loyal
+                                        clients.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">From design to maintenance, I’m with you at every
+                                        step.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">For knowing how I differ from others.
+                                        <a href="#about" class="service__modal-explore"> Explore now!</a>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <span class="services__no">02</span>
+                </div>
+
+                <div class="services__item">
+                    <i class="fa-solid fa-institution services__icon"></i>
+
+                    <h3 class="services__title">Institutional Websites</h3>
+                    <p class="services__description">
+                        I help to develop a institutional websites that effectively communicate your mission, engage
+                        your audience, and showcase your services with seamless functionality.
+                    </p>
+                    <div class="services__btns">
+                        <a href="#work" class="services__btn"> Projects </a>
+                        <span class="services__btn services__button">Explore</span>
+                    </div>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class="fa-solid fa-times services__modal-close"></i>
+
+                            <h3 class="services__modal-title">Institutional Websites</h3>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Websites that reflect your institution's purpose and
+                                        values.
+                                    </p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Highlight key services, events, and achievements
+                                        effectively.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Lightning-fast websites for a seamless user
+                                        experience.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Custom graphics and layouts to stand out from the
+                                        crowd.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Scalable and easily upgradable for your evolving
+                                        needs.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Design that turns clicks into actions, boosting
+                                        conversions.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">SEO strategies built in to grow your online reach.
+                                    </p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Built-in protection to keep your site safe and
+                                        secure.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Tailored visuals that reinforce your institutional
+                                        identity.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">From design to maintenance, I’m with you at every
+                                        step.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">For knowing how I differ from others.
+                                        <a href="#about" class="service__modal-explore"> Explore now!</a>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <span class="services__no">03</span>
+                </div>
+
+                <div class="services__item">
+                    <i class="fa-solid fa-paint-brush services__icon"></i>
+
+                    <h3 class="services__title">Branding Websites</h3>
+                    <p class="services__description">
+                        I craft visually striking branding websites that elevate your identity, communicate your story,
+                        and leave a lasting impression, helping you stand out in a competitive market.
+                    </p>
+                    <div class="services__btns">
+                        <a href="#work" class="services__btn"> Projects </a>
+                        <span class="services__btn services__button">Explore</span>
+                    </div>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class="fa-solid fa-times services__modal-close"></i>
+
+                            <h3 class="services__modal-title">Branding Websites</h3>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Unique designs tailored to reflect your brand
+                                        essence.
+                                    </p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Showcase your brand’s journey and values
+                                        effectively.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Lightning-fast websites for a seamless user
+                                        experience.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Custom graphics and layouts to stand out from the
+                                        crowd.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Scalable and easily upgradable for your evolving
+                                        needs.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Design that turns clicks into actions, boosting
+                                        conversions.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">SEO strategies built in to grow your online reach.
+                                    </p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Built-in protection to keep your site safe and
+                                        secure.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Ready to grow as your brand expands and evolves.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">From design to maintenance, I’m with you at every
+                                        step.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">For knowing how I differ from others.
+                                        <a href="#about" class="service__modal-explore"> Explore now!</a>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <span class="services__no">04</span>
+                </div>
+
+                <div class="services__item">
+                    <i class="fa-solid fa-shopping-cart services__icon"></i>
+
+                    <h3 class="services__title">Market Websites</h3>
+                    <p class="services__description">
+                        I help to create dynamic market websites for shops and businesses, designed to showcase
+                        products, boost sales, and enhance user experience with seemless functionalities.
+                    </p>
+                    <div class="services__btns">
+                        <a href="#work" class="services__btn"> Projects </a>
+                        <span class="services__btn services__button">Explore</span>
+                    </div>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class="fa-solid fa-times services__modal-close"></i>
+
+                            <h3 class="services__modal-title">Market Websites</h3>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Highlight your products with visually appealing
+                                        layouts.
+                                    </p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Intuitive structure for effortless browsing and
+                                        discovery.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Lightning-fast websites for a seamless user
+                                        experience.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Seamless shopping experience across all devices.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Scalable and easily upgradable for your evolving
+                                        needs.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Design that turns clicks into actions, boosting
+                                        conversions.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">SEO strategies built in to grow your online reach.
+                                    </p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Built-in protection to keep your site safe and
+                                        secure.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Ready to grow as your brand expands and evolves.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">From design to maintenance, I’m with you at every
+                                        step.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">For knowing how I differ from others.
+                                        <a href="#about" class="service__modal-explore"> Explore now!</a>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <span class="services__no">05</span>
+                </div>
+
+                <div class="services__item">
+                    <i class="fa-solid fa-tools services__icon"></i>
+
+                    <h3 class="services__title">Websites Maintenance</h3>
+                    <p class="services__description">
+                        I offer comprehensive website maintenance plans to ensure your site remains secure, up-to-date,
+                        and optimized for peak performance and good user experience at all times.
+                    </p>
+                    <div class="services__btns">
+                        <a href="#work" class="services__btn"> Projects </a>
+                        <span class="services__btn services__button">Explore</span>
+                    </div>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class="fa-solid fa-times services__modal-close"></i>
+
+                            <h3 class="services__modal-title">Websites Maintenance</h3>
+                            <p class="services__modal-description">Pay only once and tension free from all things like
+                                seo, security, updation, backups, performance tracking and many other things.</p>
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Keep your website’s software and content up to date.
+                                    </p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Protect your site from threats with ongoing security
+                                        checks.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Ensure fast load times and smooth functionality for
+                                        users.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Quickly resolve technical issues to minimize
+                                        downtime.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Regular backups to safeguard your important data.
+                                    </p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info"> Easy updates for text, images, and product
+                                        listings.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Monitor performance and user behavior to improve
+                                        site.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Ensure your site works flawlessly across devices.
+                                    </p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Ongoing assistance to address any urgent issues.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="fa-solid fa-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">For knowing how I differ from others.
+                                        <a href="#about" class="service__modal-explore"> Explore now!</a>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <span class="services__no">06</span>
+                </div>
+
+            </div>
+        </section>
+
+        <!--=======================  SKILLS  ===================================-->
+        <section class="skills section" id="professionalskills">
+            <h2 class="section__title title-center" data-title="My Talent">
+                Professional Skills
+            </h2>
+            <div class="skills__container container">
+                <div class="skills__tab-buttons">
+                    <div id="skills__soft-tab" class="skills__active" onclick="openTab('skills__soft')">Specialized
+                    </div>
+                    <div id="skills__technical-tab" onclick="openTab('skills__technical')">Technical</div>
+                    <div id="skills__extra-tab" onclick="openTab('skills__extra')">Productive</div>
+                </div>
+
+                <!-- ===============   First Tab  ==========================-->
+                <div id="skills__soft" class="skills__tab-content skills__active">
+                    <div class="skills-grid">
+                        <div class="skills-column">
+                            <div class="skills-item" onclick="toggleDetails(this)">
+                                <div class="skills-header">
+                                    <span class="skills-name">Html5</span>
+                                    <span class="skills-percentage">95%</span>
+                                </div>
+                                <div class="skills-progress-container">
+                                    <div class="skills__progress-bar" style="width: 95%;"></div>
+                                </div>
+                                <div class="skills-details">
+                                    <div class="skills-details-header">
+                                        <span class="skills__icon"><i class="fa-brands fa-html5"></i></span>
+                                        <span class="skills__level">Expert</span>
+                                    </div>
+                                    <div class="skills__description">
+                                        Creating modern, semantic, and responsive web structures.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills-item" onclick="toggleDetails(this)">
+                                <div class="skills-header">
+                                    <span class="skills-name">Bootstrap</span>
+                                    <span class="skills-percentage">80%</span>
+                                </div>
+                                <div class="skills-progress-container">
+                                    <div class="skills__progress-bar" style="width: 80%;"></div>
+                                </div>
+                                <div class="skills-details">
+                                    <div class="skills-details-header">
+                                        <span class="skills__icon"><i class="fa-brands fa-bootstrap"></i></span>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                    <div class="skills__description">
+                                        Developing responsive designs quickly with Bootstrap.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills-item" onclick="toggleDetails(this)">
+                                <div class="skills-header">
+                                    <span class="skills-name">NodeJs</span>
+                                    <span class="skills-percentage">70%</span>
+                                </div>
+                                <div class="skills-progress-container">
+                                    <div class="skills__progress-bar" style="width: 70%;"></div>
+                                </div>
+                                <div class="skills-details">
+                                    <div class="skills-details-header">
+                                        <span class="skills__icon"><i class="fa-brands fa-node"></i></span>
+                                        <span class="skills__level">Proficient</span>
+                                    </div>
+                                    <div class="skills__description">
+                                        Developing scalable server-side apps with Node.js
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills-item" onclick="toggleDetails(this)">
+                                <div class="skills-header">
+                                    <span class="skills-name">WordPress</span>
+                                    <span class="skills-percentage">80%</span>
+                                </div>
+                                <div class="skills-progress-container">
+                                    <div class="skills__progress-bar" style="width: 80%;"></div>
+                                </div>
+                                <div class="skills-details">
+                                    <div class="skills-details-header">
+                                        <span class="skills__icon"><i class="fa-brands fa-wordpress"></i></span>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                    <div class="skills__description">
+                                        Building and customizing sleek WordPress websites.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Additional skill items can go here... -->
+                        </div>
+
+                        <!-- Column 2 -->
+                        <div class="skills-column">
+                            <div class="skills-item" onclick="toggleDetails(this)">
+                                <div class="skills-header">
+                                    <span class="skills-name">CSS3</span>
+                                    <span class="skills-percentage">95%</span>
+                                </div>
+                                <div class="skills-progress-container">
+                                    <div class="skills__progress-bar" style="width: 95%;"></div>
+                                </div>
+                                <div class="skills-details">
+                                    <div class="skills-details-header">
+                                        <span class="skills__icon"><i class="fa-brands fa-css3-alt"></i></span>
+                                        <span class="skills__level">Expert</span>
+                                    </div>
+                                    <div class="skills__description">
+                                        Designing stylish and adaptive web layouts with CSS3.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills-item" onclick="toggleDetails(this)">
+                                <div class="skills-header">
+                                    <span class="skills-name">Tailwind</span>
+                                    <span class="skills-percentage">85%</span>
+                                </div>
+                                <div class="skills-progress-container">
+                                    <div class="skills__progress-bar" style="width: 85%;"></div>
+                                </div>
+                                <div class="skills-details">
+                                    <div class="skills-details-header">
+                                        <span class="skills__icon"><img src="./assets/icons/tailwind.png" alt="tailwind"
+                                                class="skills__custom-icon" loading="lazy"></span>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                    <div class="skills__description">
+                                        Crafting custom, utility-first designs with Tailwind.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills-item" onclick="toggleDetails(this)">
+                                <div class="skills-header">
+                                    <span class="skills-name">ExpressJs</span>
+                                    <span class="skills-percentage">70%</span>
+                                </div>
+                                <div class="skills-progress-container">
+                                    <div class="skills__progress-bar" style="width: 70%;"></div>
+                                </div>
+                                <div class="skills-details">
+                                    <div class="skills-details-header">
+                                        <span class="skills__icon"><img src="./assets/icons/express.png" alt="express"
+                                                class="skills__custom-icon" loading="lazy"></span>
+                                        <span class="skills__level">Proficient</span>
+                                    </div>
+                                    <div class="skills__description">
+                                        Creating robust RESTFUL APIs with Express.js.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Additional skill items can go here... -->
+                        </div>
+
+                        <!-- Column 3 -->
+                        <div class="skills-column">
+                            <div class="skills-item" onclick="toggleDetails(this)">
+                                <div class="skills-header">
+                                    <span class="skills-name">JavaScript</span>
+                                    <span class="skills-percentage">85%</span>
+                                </div>
+                                <div class="skills-progress-container">
+                                    <div class="skills__progress-bar" style="width: 85%;"></div>
+                                </div>
+                                <div class="skills-details">
+                                    <div class="skills-details-header">
+                                        <span class="skills__icon"><i class="fa-brands fa-js"></i></span>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                    <div class="skills__description">
+                                        Building dynamic and interactive web experiences.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills-item" onclick="toggleDetails(this)">
+                                <div class="skills-header">
+                                    <span class="skills-name">ReactJs</span>
+                                    <span class="skills-percentage">85%</span>
+                                </div>
+                                <div class="skills-progress-container">
+                                    <div class="skills__progress-bar" style="width: 85%;"></div>
+                                </div>
+                                <div class="skills-details">
+                                    <div class="skills-details-header">
+                                        <span class="skills__icon"><i class="fa-brands fa-react"></i></span>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                    <div class="skills__description">
+                                        Building fast and interactive UIs with React.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills-item" onclick="toggleDetails(this)">
+                                <div class="skills-header">
+                                    <span class="skills-name">MongoDB</span>
+                                    <span class="skills-percentage">75%</span>
+                                </div>
+                                <div class="skills-progress-container">
+                                    <div class="skills__progress-bar" style="width: 75%;"></div>
+                                </div>
+                                <div class="skills-details">
+                                    <div class="skills-details-header">
+                                        <span class="skills__icon"><img src="./assets/icons/mongodb.png" alt="mongodb"
+                                                class="skills__custom-icon" loading="lazy"></span>
+                                        <span class="skills__level">Proficient</span>
+                                    </div>
+                                    <div class="skills__description">
+                                        Designing flexible NoSQL databases with MongoDB.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Additional skill items can go here... -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ===============   Second Tab  ==========================-->
+                <div id="skills__technical" class="skills__tab-content ">
+                    <div class="skills-grid">
+                        <div class="skills-column">
+                            <div class="skills-item" onclick="toggleDetails(this)">
+                                <div class="skills-header">
+                                    <span class="skills-name">Web Design</span>
+                                    <span class="skills-percentage">70%</span>
+                                </div>
+                                <div class="skills-progress-container">
+                                    <div class="skills__progress-bar" style="width: 70%;"></div>
+                                </div>
+                                <div class="skills-details">
+                                    <div class="skills-details-header">
+                                        <span class="skills__icon"><i class="fa-solid fa-paint-brush"></i>
+                                        </span>
+                                        <span class="skills__level">Proficient</span>
+                                    </div>
+                                    <div class="skills__description">
+                                        Crafting visually appealing and user-friendly website layouts.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills-item" onclick="toggleDetails(this)">
+                                <div class="skills-header">
+                                    <span class="skills-name">Web SEO</span>
+                                    <span class="skills-percentage">80%</span>
+                                </div>
+                                <div class="skills-progress-container">
+                                    <div class="skills__progress-bar" style="width: 80%;"></div>
+                                </div>
+                                <div class="skills-details">
+                                    <div class="skills-details-header">
+                                        <span class="skills__icon"><i class="fa-brands fa-searchengin"></i></i>
+                                        </span>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                    <div class="skills__description">
+                                        Optimizing websites to rank higher in search engine results.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Additional skill items can go here... -->
+                        </div>
+
+                        <!-- Column 2 -->
+                        <div class="skills-column">
+                            <div class="skills-item" onclick="toggleDetails(this)">
+                                <div class="skills-header">
+                                    <span class="skills-name">Web Security</span>
+                                    <span class="skills-percentage">75%</span>
+                                </div>
+                                <div class="skills-progress-container">
+                                    <div class="skills__progress-bar" style="width: 75%;"></div>
+                                </div>
+                                <div class="skills-details">
+                                    <div class="skills-details-header">
+                                        <span class="skills__icon"><i class="fa-solid fa-shield-halved"></i></span>
+                                        <span class="skills__level">Proficient</span>
+                                    </div>
+                                    <div class="skills__description">
+                                        Ensuring robust protection against web vulnerabilities and threats.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills-item" onclick="toggleDetails(this)">
+                                <div class="skills-header">
+                                    <span class="skills-name">Testing</span>
+                                    <span class="skills-percentage">85%</span>
+                                </div>
+                                <div class="skills-progress-container">
+                                    <div class="skills__progress-bar" style="width: 85%;"></div>
+                                </div>
+                                <div class="skills-details">
+                                    <div class="skills-details-header">
+                                        <span class="skills__icon"><i class="fa-solid fa-microscope"></i>
+                                        </span>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                    <div class="skills__description">
+                                        Validating and debugging to ensure flawless functionality.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Additional skill items can go here... -->
+                        </div>
+
+                        <!-- Column 3 -->
+                        <div class="skills-column">
+                            <div class="skills-item" onclick="toggleDetails(this)">
+                                <div class="skills-header">
+                                    <span class="skills-name">Git & Github</span>
+                                    <span class="skills-percentage">90%</span>
+                                </div>
+                                <div class="skills-progress-container">
+                                    <div class="skills__progress-bar" style="width: 90%;"></div>
+                                </div>
+                                <div class="skills-details">
+                                    <div class="skills-details-header">
+                                        <span class="skills__icon"><i class="fa-brands fa-git-alt"></i></span>
+                                        <span class="skills__level">Expert</span>
+                                    </div>
+                                    <div class="skills__description">
+                                        Version control and collaborative coding with Git and GitHub.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills-item" onclick="toggleDetails(this)">
+                                <div class="skills-header">
+                                    <span class="skills-name">Deployment</span>
+                                    <span class="skills-percentage">90%</span>
+                                </div>
+                                <div class="skills-progress-container">
+                                    <div class="skills__progress-bar" style="width: 90%;"></div>
+                                </div>
+                                <div class="skills-details">
+                                    <div class="skills-details-header">
+                                        <span class="skills__icon"><i class="fa-solid fa-globe"></i>
+                                        </span>
+                                        <span class="skills__level">Expert</span>
+                                    </div>
+                                    <div class="skills__description">
+                                        Seamlessly launching web applications to live environments.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Additional skill items can go here... -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ===============   Third Tab  ==========================-->
+                <div id="skills__extra" class="skills__tab-content ">
+                    <div class="skills-grid">
+                        <div class="skills-column">
+                            <div class="skills-item" onclick="toggleDetails(this)">
+                                <div class="skills-header">
+                                    <span class="skills-name">Time Management</span>
+                                    <span class="skills-percentage">90%</span>
+                                </div>
+                                <div class="skills-progress-container">
+                                    <div class="skills__progress-bar" style="width: 90%;"></div>
+                                </div>
+                                <div class="skills-details">
+                                    <div class="skills-details-header">
+                                        <span class="skills__icon"><i class="fa-solid fa-clock"></i>
+                                        </span>
+                                        <span class="skills__level">Expert</span>
+                                    </div>
+                                    <div class="skills__description">
+                                        Efficiently organizing tasks to meet deadlines and optimize productivity.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills-item" onclick="toggleDetails(this)">
+                                <div class="skills-header">
+                                    <span class="skills-name">Problem Solving</span>
+                                    <span class="skills-percentage">85%</span>
+                                </div>
+                                <div class="skills-progress-container">
+                                    <div class="skills__progress-bar" style="width: 85%;"></div>
+                                </div>
+                                <div class="skills-details">
+                                    <div class="skills-details-header">
+                                        <span class="skills__icon"><i class="fa-solid fa-puzzle-piece"></i></span>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                    <div class="skills__description">
+                                        Identifying challenges & developing effective solutions with critical thinking.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills-item" onclick="toggleDetails(this)">
+                                <div class="skills-header">
+                                    <span class="skills-name">Collaboration</span>
+                                    <span class="skills-percentage">85%</span>
+                                </div>
+                                <div class="skills-progress-container">
+                                    <div class="skills__progress-bar" style="width: 85%;"></div>
+                                </div>
+                                <div class="skills-details">
+                                    <div class="skills-details-header">
+                                        <span class="skills__icon"><i class="fa-solid fa-users"></i>
+                                        </span>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                    <div class="skills__description">
+                                        Working effectively with teams to achieve common goals and objectives.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills-item" onclick="toggleDetails(this)">
+                                <div class="skills-header">
+                                    <span class="skills-name">Communication</span>
+                                    <span class="skills-percentage">85%</span>
+                                </div>
+                                <div class="skills-progress-container">
+                                    <div class="skills__progress-bar" style="width: 85%;"></div>
+                                </div>
+                                <div class="skills-details">
+                                    <div class="skills-details-header">
+                                        <span class="skills__icon"><i class="fa-solid fa-comment-dots"></i>
+                                        </span>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                    <div class="skills__description">
+                                        Clearly conveying ideas and information for better understanding and impact.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Additional skill items can go here... -->
+                        </div>
+
+                        <!-- Column 2 -->
+                        <div class="skills-column">
+                            <div class="skills-item" onclick="toggleDetails(this)">
+                                <div class="skills-header">
+                                    <span class="skills-name">Creativity</span>
+                                    <span class="skills-percentage">85%</span>
+                                </div>
+                                <div class="skills-progress-container">
+                                    <div class="skills__progress-bar" style="width: 85%;"></div>
+                                </div>
+                                <div class="skills-details">
+                                    <div class="skills-details-header">
+                                        <span class="skills__icon"><i class="fa-solid fa-lightbulb"></i>
+                                        </span>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                    <div class="skills__description">
+                                        Applying innovative thinking to generate unique solutions and ideas.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills-item" onclick="toggleDetails(this)">
+                                <div class="skills-header">
+                                    <span class="skills-name">Typing</span>
+                                    <span class="skills-percentage">90%</span>
+                                </div>
+                                <div class="skills-progress-container">
+                                    <div class="skills__progress-bar" style="width: 90%;"></div>
+                                </div>
+                                <div class="skills-details">
+                                    <div class="skills-details-header">
+                                        <span class="skills__icon"><i class="fa-solid fa-keyboard"></i>
+                                        </span>
+                                        <span class="skills__level">Expert</span>
+                                    </div>
+                                    <div class="skills__description">
+                                        Typing quickly and accurately to enhance productivity.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills-item" onclick="toggleDetails(this)">
+                                <div class="skills-header">
+                                    <span class="skills-name">Adaptability</span>
+                                    <span class="skills-percentage">90%</span>
+                                </div>
+                                <div class="skills-progress-container">
+                                    <div class="skills__progress-bar" style="width: 90%;"></div>
+                                </div>
+                                <div class="skills-details">
+                                    <div class="skills-details-header">
+                                        <span class="skills__icon"><i class="fa-solid fa-sync-alt"></i>
+                                        </span>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                    <div class="skills__description">
+                                        Adjusting quickly to new situations and challenges with a positive mindset.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills-item" onclick="toggleDetails(this)">
+                                <div class="skills-header">
+                                    <span class="skills-name">AI use</span>
+                                    <span class="skills-percentage">90%</span>
+                                </div>
+                                <div class="skills-progress-container">
+                                    <div class="skills__progress-bar" style="width: 90%;"></div>
+                                </div>
+                                <div class="skills-details">
+                                    <div class="skills-details-header">
+                                        <span class="skills__icon"><i class="fa-solid fa-robot"></i>
+                                        </span>
+                                        <span class="skills__level">Expert</span>
+                                    </div>
+                                    <div class="skills__description">
+                                        Leveraging ai to enhance efficiency and decision-making.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Additional skill items can go here... -->
+                        </div>
+
+                        <!-- Column 3 -->
+                        <div class="skills-column">
+                            <div class="skills-item" onclick="toggleDetails(this)">
+                                <div class="skills-header">
+                                    <span class="skills-name">Leadership</span>
+                                    <span class="skills-percentage">85%</span>
+                                </div>
+                                <div class="skills-progress-container">
+                                    <div class="skills__progress-bar" style="width: 85%;"></div>
+                                </div>
+                                <div class="skills-details">
+                                    <div class="skills-details-header">
+                                        <span class="skills__icon"><i class="fa-solid fa-crown"></i>
+                                        </span>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                    <div class="skills__description">
+                                        Inspiring and guiding teams to achieve collective success.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills-item" onclick="toggleDetails(this)">
+                                <div class="skills-header">
+                                    <span class="skills-name">Critical Thinking</span>
+                                    <span class="skills-percentage">85%</span>
+                                </div>
+                                <div class="skills-progress-container">
+                                    <div class="skills__progress-bar" style="width: 85%;"></div>
+                                </div>
+                                <div class="skills-details">
+                                    <div class="skills-details-header">
+                                        <span class="skills__icon"><i class="fa-solid fa-brain"></i>
+                                        </span>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                    <div class="skills__description">
+                                        Analyzing situations logically to make informed and effective decisions.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills-item" onclick="toggleDetails(this)">
+                                <div class="skills-header">
+                                    <span class="skills-name">Learning</span>
+                                    <span class="skills-percentage">85%</span>
+                                </div>
+                                <div class="skills-progress-container">
+                                    <div class="skills__progress-bar" style="width: 85%;"></div>
+                                </div>
+                                <div class="skills-details">
+                                    <div class="skills-details-header">
+                                        <span class="skills__icon"><i class="fa-solid fa-book-open"></i>
+                                        </span>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                    <div class="skills__description">
+                                        Constantly acquiring new knowledge and skills to stay ahead in the field.
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- Additional skill items can go here... -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!--======================  PORTFOLIO  ==================================-->
+        <section class="works section" id="work">
+            <h2 class="section__title title-center" data-title="My Portfolio">
+                Recent Works
+            </h2>
+
+            <div class="work__filters">
+                <span class="work__item active-work" data-filter="all">All</span>
+                <span class="work__item" data-filter=".portfolio">Portfolios</span>
+                <span class="work__item" data-filter=".other">Others</span>
+            </div>
+
+            <div class="work__container container grid">
+                <div class="work__card mix portfolio">
+                    <div class="work__img-container scrollable">
+                        <img src="assets/img/work/work-1.webp" alt="portfolio website design" class="work__img"
+                            loading="lazy">
+                    </div>
+                    <h3 class="work__title">Portfolio Design</h3>
+                    <span class="work__button">Demo
+                        <i class="fa-solid fa-arrow-right work__button-icon"></i>
+                    </span>
+
+                    <div class="portfolio__item-details">
+                        <h3 class="details__title">Amazing Website Practice</h3>
+                        <p class="details__description">
+                            This portfolio website is a personal project created as part of my learning journey. It's a
+                            practice clone where I honed my skills and gained valuable insights into modern web
+                            development. While inspired by an existing design, I've added unique touches and refinements
+                            that showcase my ability to build even better and fully original websites. My goal is to
+                            ensure viewers see creativity, capability, and potential in my work rather than a mere
+                            replication.
+                        </p>
+                        <ul class="details__info">
+                            <li>Created - <span> September 2024</span></li>
+                            <li>Technologies - <span>Html + Css + Javascript</span></li>
+                            <li>Role - <span>Coding</span></li>
+                        </ul>
+                    </div>
+
+                    <a href="https://github.com/saqlainhub/portfolio-website-1.git" class="github-link" style="display:none;" target="_blank">GitHub</a>
+                </div>
+
+                <div class="work__card mix portfolio">
+                    <div class="work__img-container scrollable">
+                        <img src="assets/img/work/work-2.webp" alt="portfolio website design" class="work__img"
+                            loading="lazy">
+                    </div>
+                    <h3 class="work__title">Portfolio Design</h3>
+                    <span class="work__button">Demo
+                        <i class="fa-solid fa-arrow-right work__button-icon"></i>
+                    </span>
+
+                    <div class="portfolio__item-details">
+                        <h3 class="details__title">Personal Portfolio Website</h3>
+                        <p class="details__description">
+                            This is my personal portfolio website, thoughtfully designed and developed entirely by me to
+                            showcase my skills, experience, and projects. Every element reflects my creativity,
+                            attention to detail, and dedication to building modern, user-friendly websites. It's a
+                            genuine representation of my abilities and serves as a hub for connecting with like-minded
+                            professionals and potential collaborators.
+                        </p>
+                        <ul class="details__info">
+                            <li>Created - <span> November 2024</span></li>
+                            <li>Technologies - <span>Html + Css + JavaScript</span></li>
+                            <li>Role - <span>Coding + Design + SEO + Deployment</span></li>
+                        </ul>
+                    </div>
+
+                    <a href="https://github.com/user/project2" class="github-link" style="display:none;" target="_blank">GitHub</a>
+                </div>
+
+                <div class="work__card mix portfolio">
+                    <div class="work__img-container scrollable">
+                        <img src="assets/img/work/work-3.webp" alt="posrtfolio website design" class="work__img"
+                            loading="lazy">
+                    </div>
+                    <h3 class="work__title">Portfolio Design</h3>
+                    <span class="work__button">Demo
+                        <i class="fa-solid fa-arrow-right work__button-icon"></i>
+                    </span>
+
+                    <div class="portfolio__item-details">
+                        <h3 class="details__title">Animated Website Practice</h3>
+                        <p class="details__description">
+                            This cloned website is a practice project where I focused on replicating a professional
+                            design to sharpen my development skills. While inspired by an existing website, I've
+                            implemented enhancements and personalized elements to demonstrate my creativity and
+                            technical expertise. This project highlights my ability to analyze, recreate, and improve
+                            designs effectively.
+                        </p>
+                        <ul class="details__info">
+                            <li>Created - <span>August 2024</span></li>
+                            <li>Technologies - <span>Html + Bootstrap</span></li>
+                            <li>Role - <span>Coding</span></li>
+                        </ul>
+                    </div>
+
+                    <a href="https://github.com/saqlainhub/portfolio-website-2.git" class="github-link" style="display:none;" target="_blank">GitHub</a>
+                </div>
+
+                <div class="work__card mix portfolio">
+                    <div class="work__img-container scrollable">
+                        <img src="assets/img/work/work-4.webp" alt="portfolio website design" class="work__img"
+                            loading="lazy">
+                    </div>
+                    <h3 class="work__title">Portfolio Design</h3>
+                    <span class="work__button">Demo
+                        <i class="fa-solid fa-arrow-right work__button-icon"></i>
+                    </span>
+
+                    <div class="portfolio__item-details">
+                        <h3 class="details__title">Awesome Website Practice</h3>
+                        <p class="details__description">
+                            This cloned website is another milestone in my learning journey, where I recreated a
+                            professional design to understand its structure, functionality, and aesthetics. By adding my
+                            unique touches and optimizations, I aimed to push the boundaries of my skills and
+                            creativity, proving my capability to deliver high-quality, custom web solutions.
+                        </p>
+                        <ul class="details__info">
+                            <li>Created - <span>Octuber 2024</span></li>
+                            <li>Technologies - <span>Html + Css + Javascript</span></li>
+                            <li>Role - <span>Coding</span></li>
+                        </ul>
+                    </div>
+                    <a href="https://github.com/saqlainhub/portfolio-website-3.git" class="github-link" style="display:none;" target="_blank">GitHub</a>
+                </div>
+
+                <div class="work__card mix other">
+                    <div class="work__img-container scrollable">
+                        <img src="assets/img/work/work-5.webp" alt="News website" class="work__img" loading="lazy">
+                    </div>
+                    <h3 class="work__title">News Website</h3>
+                    <span class="work__button">Demo
+                        <i class="fa-solid fa-arrow-right work__button-icon"></i>
+                    </span>
+
+                    <div class="portfolio__item-details">
+                        <h3 class="details__title">News Website Practice</h3>
+                        <p class="details__description">
+                            This news website is a fully original project designed and developed by me. It features a
+                            clean, user-friendly layout optimized for delivering the latest updates and articles. From
+                            concept to execution, I focused on creating a dynamic and engaging platform that highlights
+                            my skills in web development and responsive design while ensuring a seamless browsing
+                            experience.
+                        </p>
+                        <ul class="details__info">
+                            <li>Created - <span>May 2024</span></li>
+                            <li>Technologies - <span>Html + Css</span></li>
+                            <li>Role - <span>Coding + Design</span></li>
+                        </ul>
+                    </div>
+
+                    <a href="https://github.com/saqlainhub/News-Website.git" class="github-link" style="display:none;" target="_blank">GitHub</a>
+                </div>
+
+                <div class="work__card mix portfolio">
+                    <div class="work__img-container scrollable">
+                        <img src="assets/img/work/work-6.webp" alt="portfolio website using react" class="work__img"
+                            loading="lazy">
+                    </div>
+                    <h3 class="work__title">Portfolio Design</h3>
+                    <span class="work__button">Demo
+                        <i class="fa-solid fa-arrow-right work__button-icon"></i>
+                    </span>
+                   
+                    <div class="portfolio__item-details">
+                        <h3 class="details__title">Amazing Website Practice</h3>
+                        <p class="details__description">
+                            This React website is a cloned project I developed to deepen my understanding of React's
+                            component-based architecture and modern web development practices. While based on an
+                            existing design, I added personalized tweaks and optimizations to enhance functionality and
+                            performance, showcasing my ability to work with React effectively and creatively
+                        </p>
+                        <ul class="details__info">
+                            <li>Created - <span>November 2024</span></li>
+                            <li>Technologies - <span>React + Tailwind</span></li>
+                            <li>Role - <span>Coding</span></li>
+                        </ul>
+                    </div>
+
+                    <a href="https://github.com/saqlainhub/portfolio-website-4.git" class="github-link" style="display:none;" target="_blank">GitHub</a>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <div class="portfolio__popup">
+            <div class="portfolio__popup-inner">
+
+                <div class="portfolio__popup-nav">
+
+                    <div class="about-toggle">
+                        About <i class="fa-solid fa-arrow-right work__button-icon"></i>
+                    </div>
+                    <a href="#" class="git-toggle github-repo-btn" target="_blank">
+                        <i class="fa-brands fa-github"></i> Preview <i class="fa-solid fa-arrow-right work__button-icon"></i>
+                    </a>
+                    <div class="portfolio__popup-close"><i class="fa-solid fa-times"></i></div>
+                </div>
+
+                <div class="portfolio__popup-info about_hidden">
+                    <div class="portfolio__popup-subtitle">Featured - <span>Design</span></div>
+                    <div class="portfolio__popup-body">
+                        <h3 class="details__title">The services provide for design</h3>
+                        <p class="details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Voluptatum magni delectus dolore.</p>
+                        <ul class="details__info">
+                            <li>Created - <span>4 dec 2020</span></li>
+                            <li>Technologies - <span>html css</span></li>
+                            <li>Role - <span>frontend</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="pp__thumbnail"></div>
+
+
+            </div>
+        </div>
+        <!--======================  TESTIMONIALS =================================-->
+        <section class="testimonials section" id="testimonials">
+            <h2 class="section__title title-center" data-title="What My Clients Say">
+                Testimonials
+            </h2>
+
+            <div class="testimonials__container container swiper">
+                <div class="swiper-wrapper">
+                    <div class="testimonial__card swiper-slide">
+                        <div class="img-box">
+                            <img src="assets/img/testimonial/testimonial-1.jpg" alt="freelance-client"
+                                class="testimonial__profile-img" loading="lazy">
+                        </div>
+                        <h3 class="testimonial__profile-title">John Smith</h3>
+                        <p class="testimonial__profile-subtitle">Content Writer</p>
+                        <p class="testimonial__description">
+                            Working with Saqlain was an exceptional experience. They not only brought my vision to
+                            life
+                            but also provided valuable insights on design, functionality, and user experience. I
+                            highly
+                            recommend Saqlain for anyone looking for a professional, creative, and reliable web
+                            developer!
+                        </p>
+                        <p class="testimonial__date">Octuber 17. 2024</p>
+
+                        <div class="rating">
+                            <div class="fa-solid fa-star"></div>
+                            <div class="fa-solid fa-star"></div>
+                            <div class="fa-solid fa-star"></div>
+                            <div class="fa-solid fa-star"></div>
+                            <div class="fa-solid fa-star"></div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+                        <div class="img-box">
+                            <img src="assets/img/testimonial/testimonial-2.jpg" alt="freelance-client"
+                                class="testimonial__profile-img" loading="lazy">
+                        </div>
+                        <h3 class="testimonial__profile-title">David Johnson</h3>
+                        <p class="testimonial__profile-subtitle">Digital Marketing Agency</p>
+                        <p class="testimonial__description">
+                            Working with Saqlain to build our agency’s website was an absolute pleasure. From the
+                            very
+                            beginning, they took the time to understand our vision. The end result is a beautiful.
+                            I’m
+                            beyond happy with the work and would recommend Saqlain to anyone looking for a skilled
+                            and
+                            reliable web developer.
+                        </p>
+                        <p class="testimonial__date">September 25. 2024</p>
+
+                        <div class="rating">
+                            <div class="fa-solid fa-star"></div>
+                            <div class="fa-solid fa-star"></div>
+                            <div class="fa-solid fa-star"></div>
+                            <div class="fa-solid fa-star"></div>
+                            <div class="fa-solid fa-star"></div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+                        <div class="img-box">
+                            <img src="assets/img/testimonial/testimonial-3.jpg" alt="freelance-client"
+                                class="testimonial__profile-img" loading="lazy">
+                        </div>
+                        <h3 class="testimonial__profile-title">Sophia Miller</h3>
+                        <p class="testimonial__profile-subtitle">Coaching Center</p>
+                        <p class="testimonial__description">
+                            I’m so grateful to have worked with Saqlain on creating my website. He truly understood
+                            the
+                            essence of my business and translated it into a clean and professional website. I highly
+                            recommend Saqlain for anyone looking to build a meaningful online presence!
+                        </p>
+                        <p class="testimonial__date">November 04. 2024</p>
+
+                        <div class="rating">
+                            <div class="fa-solid fa-star"></div>
+                            <div class="fa-solid fa-star"></div>
+                            <div class="fa-solid fa-star"></div>
+                            <div class="fa-solid fa-star"></div>
+                            <div class="fa-solid fa-star"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </section>
+
+        <!--=======================  CONTACT  ======================================-->
+        <section class="contact section" id="contacts">
+            <h2 class="section__title title-center" data-title="Get in touch">
+                Contect Me
+            </h2>
+
+            <div class="contact__container container grid">
+                <div class="contact__details">
+                    <div class="contact__item">
+                        <i class="fa-solid fa-phone contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">+92-3454409621</h3>
+                            <a href="tel:+923454409621" class="contact__data" id="callNowButton">Call Now <i
+                                    class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="contact__item">
+                        <i class="fa-solid fa-envelope contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">saqlaininfo1097@gmail.com</h3>
+                            <a href="mailto:saqlaininfo1097@gmail.com" class="contact__data">Write Email <i
+                                    class="fa-solid fa-arrow-right "></i></a>
+                        </div>
+                    </div>
+
+                    <div class="contact__item">
+                        <i class="fa-brands fa-whatsapp contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">+92-3454409621</h3>
+                            <a href="https://wa.me/923454409621" class="contact__data" target="_blank">Write Message
+                                <i class="fa-solid fa-arrow-right "></i></a>
+                        </div>
+                    </div>
+
+
+                    <div class="contact__item">
+                        <i class="fa-brands fa-skype contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">SaqlainHub</h3>
+                            <a href="skype:live:live:.cid.6c19cb413f68ea67?chat" class="contact__data"
+                                target="_blank">Meeting Now <i class="fa-solid fa-arrow-right "></i></a>
+                        </div>
+                    </div>
+
+
+                    <div class="contact__item">
+                        <i class="fa-solid fa-location-dot contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Qasim town, Chiniot Pakistan</h3>
+                            <a href="https://www.google.com/maps?q=31.72116, 72.99472 (Qasim town, chiniot)"
+                                class="contact__data" target="_blank">See location <i
+                                    class="fa-solid fa-arrow-right "></i></a>
+                        </div>
+                    </div>
+
+                    <div class="social-media contact__social-media" onclick="return confirmAction(event)">
+                        <a href="https://web.facebook.com/saqlainhub1097?_rdc=1&_rdr" class="icon" target="_blank">
+                            <i class="fa-brands fa-square-facebook"></i>
+                            <span class="tooltip">Facebook</span>
+                        </a>
+                        <a href="https://www.instagram.com/saqlainhub1097/" class="icon" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                            <span class="tooltip">Instagram</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/saqlainhub1097/" class="icon" target="_blank">
+                            <i class="fa-brands fa-linkedin"></i>
+                            <span class="tooltip">LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/saqlainhub" class="icon" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                            <span class="tooltip">GitHub</span>
+                        </a>
+                        <a href="https://whatsapp.com/channel/0029VatXZsZ2kNFrC7iniy0b" class="icon" target="_blank">
+                            <i class="fa-brands fa-whatsapp"></i>
+                            <span class="tooltip">Watsapp</span>
+                        </a>
+                    </div>
+                </div>
+
+                <form class="contact__form" id="contactForm">
+                    <div class="form__group">
+                        <div class="form__input">
+                            <input type="text" placeholder="Name" class="input__control" id="name" required>
+                        </div>
+                        <div class="form__input">
+                            <input type="email" placeholder="Email" class="input__control" id="email" required>
+                        </div>
+                    </div>
+                    <div class="form__input">
+                        <input type="text" placeholder="Subject" class="input__control" id="subject" required>
+                    </div>
+                    <div class="form__input">
+                        <textarea cols="30" rows="10" class="input__control textarea" placeholder="Message..."
+                            id="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn contact__btn">Send Message</button>
+                </form>
+
+                <!-- Popup Notification -->
+                <div class="email__popup" id="emailPopup" style="display: none;">
+                    <div class="email__popup-content">
+                        <span class="email__popup-emoji">✅</span>
+                        <p class="email__popup-text">Message sent successfully!</p>
+                        <a href="#contact" class="email__popup-link" onclick="closePopup()">OK</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--============================  FOOTER  ======================================-->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="footer-logo">
+                <a href="/" class="logo">SaqlainHub</a>
+                <p class="footer-description">
+                    Hi there. I help businesses to showcase their expertise online by developing professional
+                    (Portfolios, Agencies, and Institutional) websites and delivering trust, unmatched quality &
+                    impactful results. Let's Build your online presence. Message Now!
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Pages</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About us</a></li>
+                    <li><a href="#qualifications">Experience</a></li>
+                    <li><a href="#services">Our Services</a></li>
+                    <li><a href="#professionalskills">My Skills</a></li>
+                    <li><a href="#work">Recent Work</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h4>Socials</h4>
+                <ul>
+                    <li><a href="https://www.github.com/saqlainhub">Github</a></li>
+                    <li><a href="https://www.linkedin.com/in/saqlainhub1097/">Linkedin</a></li>
+                    <li><a href="https://facebook.com/saqlainhub1097">Facebook</a></li>
+                    <li><a href="https://whatsapp.com/channel/0029VatXZsZ2kNFrC7iniy0b">Whatsapp</a></li>
+                    <li><a href="https://www.instagram.com/saqlainhub1097/">Instagrame</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h4>Our Services</h4>
+                <ul>
+                    <li>Portfolio Websites</li>
+                    <li>Agency Websites</li>
+                    <li>Institutional Sites</li>
+                    <li>Branding Websites</li>
+                    <li>Market Websites</li>
+                    <li>Shop Websites</li>
+                    <li>Maintenance Plan</li>
+                </ul>
+            </div>
+
+            <div class="footer-buttons">
+                <ul>
+                    <li><a href="#home" class="nav__btn back-to-home"> Back to Home</a></li>
+                    <li><a href="#contacts" class="nav__btn hire-me">Hire Me</a></li>
+                    <li><a href="./assets/others/resume.pdf" class="nav__btn download-resume" download>Resume <i
+                                class="fa-solid fa-download"></i>
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="footer-copyright">
+                <p>&copy; 2024 SaqlainHub. <span class="footer-bottom__second-text">All Rights Reserved.</span></p>
+            </div>
+            <div class="footer-social">
+                <ul>
+                    <li><a href="https://facebook.com/saqlainhub1097" target="_blank"><i
+                                class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/saqlainhub1097/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://www.instagram.com/saqlainhub1097/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://www.github.com/saqlainhub" target="_blank"><i
+                                class="fa-brands fa-github"></i></a></li>
+                    <li><a href="https://whatsapp.com/channel/0029VatXZsZ2kNFrC7iniy0b" target="_blank"><i
+                                class="fa-brands fa-whatsapp"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom__back">
+                <a href="#home" class="nav__btn"><i class="fa-solid fa-arrow-up"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <!--===========================   JavaScript   =================================-->
+
+
+    <!-- typed js -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Mixitup JS -->
+    <script src="https://cdn.jsdelivr.net/npm/mixitup@3.3.1/dist/mixitup.min.js"></script>
+
+    <!-- Email JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "iG6z1uSpeUXFq8uCR",
+            });
+        })();
+    </script>
+
+
+    <!-- Custom JS -->
+    <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
